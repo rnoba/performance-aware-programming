@@ -3,8 +3,10 @@
 ```bash
 # You'll need python and a C compiler. 
 
-# This can take a long to compile because its generating 10^7 coordinates
 clang ./generate.c
+
+# This can take a long to compile because its generating 10^7 coordinates
+./a.out
 
 # This also can take a long, its loading the coordinates file
 # and making computations for each coordinate
