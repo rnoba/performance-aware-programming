@@ -5,10 +5,10 @@
 
 clang ./generate.c
 
-# This can take a long because its generating 10^7 coordinates
+# This can take some time because its generating 10^7 coordinates
 ./a.out
 
-# This also can take a long, its loading the coordinates file
+# This also can be a very slow, its loading the coordinates file
 # and making computations for each coordinate
 python ./haversine.py
 ```
